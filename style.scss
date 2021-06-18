@@ -30,15 +30,15 @@ nav{
 main{
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Raleway', sans-serif;
     color: rgb(128, 209, 151);
     flex-direction: column;
-    height: 85vh;
-    margin: 20px auto;
+    height: 90vh;
+    margin: auto;
     border: #198754 solid 2px;
-    
+
     h1{
         margin-top: 20px;
 
@@ -62,7 +62,7 @@ main{
     }
 
     .btn-contactame{
-        justify-self: flex-end;
+
         margin-top: 55vh;
         a{
             text-decoration: none;
